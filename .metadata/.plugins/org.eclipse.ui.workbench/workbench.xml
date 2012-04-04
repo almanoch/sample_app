@@ -16,6 +16,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="184" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="com.aptana.editor.text" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.aptana.editor.js" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.aptana.editor.css" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.aptana.editor.sass" itemType="typePlaceholder" x="-1" y="-1"/>
@@ -36,9 +37,9 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="com.aptana.editor.ruby" name="sessions_helper.rb" partName="sessions_helper.rb" title="sessions_helper.rb" tooltip="/home/ak/railsprojects/sample_app/app/helpers/sessions_helper.rb" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/ak/railsprojects/sample_app/app/helpers/sessions_helper.rb"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="406" selectionTopPixel="58"/>
+<editor activePart="true" focus="true" id="com.aptana.editor.ruby" name="authentication_pages_spec.rb" partName="authentication_pages_spec.rb" title="authentication_pages_spec.rb" tooltip="/home/ak/railsprojects/sample_app/spec/requests/authentication_pages_spec.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/ak/railsprojects/sample_app/spec/requests/authentication_pages_spec.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="578" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -61,7 +62,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="org.eclipse.ui.resourcePerspective">
+<perspectives activePart="org.eclipse.ui.views.ContentOutline" activePerspective="org.eclipse.ui.resourcePerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -129,7 +130,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="bottomLeft" ratio="0.49921995" ratioLeft="320" ratioRight="321" relationship="4" relative="topLeft">
+<info folder="true" part="bottomLeft" ratio="0.70300335" ratioLeft="632" ratioRight="267" relationship="4" relative="topLeft">
 <folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
@@ -145,179 +146,172 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/ak/railsprojects/sample_app/app/views/users/new.html.erb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/app/controllers/users_controller.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.sass" uri="file:/home/ak/railsprojects/sample_app/app/assets/stylesheets/custom.css.scss"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/ak/railsprojects/sample_app/app/views/shared/_error_messages.html.erb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/ak/railsprojects/sample_app/app/views/layouts/application.html.erb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/config/environments/production.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/config.ru"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/spec/requests/authentication_pages_spec.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/config/routes.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/app/controllers/sessions_controller.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/ak/railsprojects/sample_app/app/views/sessions/new.html.erb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/app/controllers/application_controller.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/spec/models/user_spec.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/db/migrate/20120329035012_add_remember_token_to_users.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/app/models/user.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/app/helpers/sessions_helper.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/ak/railsprojects/sample_app/app/views/layouts/_header.html.erb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.js" uri="file:/home/ak/railsprojects/sample_app/app/assets/javascripts/application.js"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/spec/requests/user_pages_spec.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/app/controllers/users_controller.rb"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/spec/requests/authentication_pages_spec.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/app/controllers/sessions_controller.rb"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/app/helpers/sessions_helper.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/app/controllers/users_controller.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/app/controllers/sessions_controller.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/ak/railsprojects/sample_app/app/views/users/index.html.erb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.sass" uri="file:/home/ak/railsprojects/sample_app/app/assets/stylesheets/custom.css.scss"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/ak/railsprojects/sample_app/app/views/layouts/_header.html.erb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/app/helpers/sessions_helper.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/app/controllers/users_controller.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/ak/railsprojects/sample_app/app/views/users/index.html.erb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/app/controllers/sessions_controller.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/spec/requests/static_pages_spec.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/app/helpers/users_helper.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/spec/requests/user_pages_spec.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/lib/tasks/sample_data.rake"/>
 </editors>
-<item historyLabel="new.html.erb" index="0">
-<position info="not_deleted" x="174" y="0"/>
+<item historyLabel="sessions_controller.rb" index="4">
+<position info="not_deleted" x="241" y="0"/>
 </item>
-<item historyLabel="_error_messages.html.erb" index="3">
-<position info="not_deleted" x="306" y="0"/>
+<item historyLabel="authentication_pages_spec.rb" index="1">
+<position info="not_deleted" x="1748" y="0"/>
 </item>
-<item historyLabel="custom.css.scss" index="2">
-<position info="not_deleted" x="2190" y="0"/>
+<item historyLabel="sessions_controller.rb" index="4">
+<position info="not_deleted" x="241" y="0"/>
 </item>
-<item historyLabel="users_controller.rb" index="1">
+<item historyLabel="sessions_helper.rb" index="2">
+<position info="not_deleted" x="886" y="0"/>
+</item>
+<item historyLabel="sessions_controller.rb" index="4">
+<position info="not_deleted" x="241" y="0"/>
+</item>
+<item historyLabel="authentication_pages_spec.rb" index="1">
+<position info="not_deleted" x="1748" y="0"/>
+</item>
+<item historyLabel="authentication_pages_spec.rb" index="1">
+<position info="not_deleted" x="1255" y="0"/>
+</item>
+<item historyLabel="authentication_pages_spec.rb" index="1">
+<position info="not_deleted" x="1243" y="0"/>
+</item>
+<item historyLabel="authentication_pages_spec.rb" index="1">
+<position info="not_deleted" x="1240" y="0"/>
+</item>
+<item historyLabel="authentication_pages_spec.rb" index="1">
+<position info="not_deleted" x="1242" y="0"/>
+</item>
+<item historyLabel="users_controller.rb" index="3">
 <position/>
 </item>
-<item historyLabel="application.html.erb" index="4">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="authentication_pages_spec.rb" index="1">
+<position info="not_deleted" x="1242" y="0"/>
 </item>
-<item historyLabel="application.html.erb" index="4">
-<position info="not_deleted" x="444" y="0"/>
+<item historyLabel="user_pages_spec.rb" index="0">
+<position info="not_deleted" x="526" y="0"/>
 </item>
-<item historyLabel="users_controller.rb" index="1">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="authentication_pages_spec.rb" index="1">
+<position info="not_deleted" x="1242" y="0"/>
 </item>
-<item historyLabel="users_controller.rb" index="1">
-<position info="not_deleted" x="315" y="0"/>
+<item historyLabel="users_controller.rb" index="3">
+<position info="not_deleted" x="198" y="0"/>
 </item>
-<item historyLabel="production.rb" index="5">
-<position info="not_deleted" x="1118" y="0"/>
+<item historyLabel="authentication_pages_spec.rb" index="1">
+<position info="not_deleted" x="1242" y="0"/>
 </item>
-<item historyLabel="config.ru" index="6">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="index.html.erb" index="5">
+<position info="not_deleted" x="219" y="0"/>
 </item>
-<item historyLabel="authentication_pages_spec.rb" index="7">
+<item historyLabel="authentication_pages_spec.rb" index="1">
+<position info="not_deleted" x="1242" y="0"/>
+</item>
+<item historyLabel="custom.css.scss" index="6">
+<position info="not_deleted" x="2464" y="0"/>
+</item>
+<item historyLabel="authentication_pages_spec.rb" index="1">
+<position info="not_deleted" x="1698" y="0"/>
+</item>
+<item historyLabel="_header.html.erb" index="7">
 <position/>
 </item>
-<item historyLabel="config.ru" index="6">
+<item historyLabel="authentication_pages_spec.rb" index="1">
+<position info="not_deleted" x="577" y="1"/>
+</item>
+<item historyLabel="_header.html.erb" index="7">
+<position info="not_deleted" x="1131" y="0"/>
+</item>
+<item historyLabel="authentication_pages_spec.rb" index="1">
+<position info="not_deleted" x="577" y="1"/>
+</item>
+<item historyLabel="sessions_helper.rb" index="8">
+<position/>
+</item>
+<item historyLabel="authentication_pages_spec.rb" index="1">
+<position info="not_deleted" x="22" y="0"/>
+</item>
+<item historyLabel="users_controller.rb" index="9">
+<position/>
+</item>
+<item historyLabel="authentication_pages_spec.rb" index="1">
+<position info="not_deleted" x="578" y="0"/>
+</item>
+<item historyLabel="index.html.erb" index="10">
+<position/>
+</item>
+<item historyLabel="authentication_pages_spec.rb" index="1">
+<position info="not_deleted" x="578" y="0"/>
+</item>
+<item historyLabel="sessions_helper.rb" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="routes.rb" index="8">
+<item historyLabel="authentication_pages_spec.rb" index="1">
+<position info="not_deleted" x="578" y="0"/>
+</item>
+<item historyLabel="users_controller.rb" index="9">
+<position/>
+</item>
+<item historyLabel="sessions_controller.rb" index="11">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="routes.rb" index="8">
-<position info="not_deleted" x="278" y="0"/>
-</item>
-<item historyLabel="sessions_controller.rb" index="9">
+<item historyLabel="users_controller.rb" index="9">
 <position/>
 </item>
-<item historyLabel="new.html.erb" index="10">
-<position/>
+<item historyLabel="authentication_pages_spec.rb" index="1">
+<position info="not_deleted" x="578" y="0"/>
 </item>
-<item historyLabel="new.html.erb" index="10">
-<position/>
-</item>
-<item historyLabel="new.html.erb" index="10">
-<position/>
-</item>
-<item historyLabel="authentication_pages_spec.rb" index="7">
-<position/>
-</item>
-<item historyLabel="new.html.erb" index="10">
-<position info="not_deleted" x="459" y="0"/>
-</item>
-<item historyLabel="authentication_pages_spec.rb" index="7">
-<position/>
-</item>
-<item historyLabel="sessions_controller.rb" index="9">
-<position/>
-</item>
-<item historyLabel="authentication_pages_spec.rb" index="7">
-<position info="not_deleted" x="704" y="0"/>
-</item>
-<item historyLabel="sessions_controller.rb" index="9">
-<position info="not_deleted" x="243" y="0"/>
-</item>
-<item historyLabel="authentication_pages_spec.rb" index="7">
-<position info="not_deleted" x="704" y="0"/>
-</item>
-<item historyLabel="application_controller.rb" index="11">
-<position info="not_deleted" x="100" y="0"/>
-</item>
-<item historyLabel="authentication_pages_spec.rb" index="7">
-<position info="not_deleted" x="704" y="0"/>
-</item>
-<item historyLabel="user_spec.rb" index="12">
-<position/>
-</item>
-<item historyLabel="user_spec.rb" index="12">
-<position/>
-</item>
-<item historyLabel="authentication_pages_spec.rb" index="7">
-<position info="not_deleted" x="704" y="0"/>
-</item>
-<item historyLabel="20120329035012_add_remember_token_to_users.rb" index="13">
-<position info="not_deleted" x="154" y="0"/>
-</item>
-<item historyLabel="user_spec.rb" index="12">
-<position info="not_deleted" x="1518" y="0"/>
-</item>
-<item historyLabel="user.rb" index="14">
-<position info="not_deleted" x="873" y="0"/>
-</item>
-<item historyLabel="sessions_helper.rb" index="15">
+<item historyLabel="static_pages_spec.rb" index="12">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="sessions_helper.rb" index="15">
-<position info="not_deleted" x="499" y="0"/>
+<item historyLabel="authentication_pages_spec.rb" index="1">
+<position info="not_deleted" x="578" y="0"/>
 </item>
-<item historyLabel="sessions_helper.rb" index="15">
-<position info="not_deleted" x="178" y="0"/>
-</item>
-<item historyLabel="user.rb" index="14">
-<position info="not_deleted" x="873" y="0"/>
-</item>
-<item historyLabel="_header.html.erb" index="16">
-<position info="not_deleted" x="1089" y="0"/>
-</item>
-<item historyLabel="user.rb" index="14">
-<position info="not_deleted" x="873" y="0"/>
-</item>
-<item historyLabel="application.js" index="17">
-<position info="not_deleted" x="638" y="0"/>
-</item>
-<item historyLabel="user.rb" index="14">
-<position info="not_deleted" x="873" y="0"/>
-</item>
-<item historyLabel="user_pages_spec.rb" index="18">
+<item historyLabel="users_controller.rb" index="9">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="users_controller.rb" index="19">
+<item historyLabel="authentication_pages_spec.rb" index="1">
+<position info="not_deleted" x="578" y="0"/>
+</item>
+<item historyLabel="users_helper.rb" index="13">
+<position/>
+</item>
+<item historyLabel="authentication_pages_spec.rb" index="1">
+<position info="not_deleted" x="578" y="0"/>
+</item>
+<item historyLabel="users_helper.rb" index="13">
+<position/>
+</item>
+<item historyLabel="authentication_pages_spec.rb" index="1">
+<position info="not_deleted" x="578" y="0"/>
+</item>
+<item historyLabel="index.html.erb" index="10">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="user_pages_spec.rb" index="18">
+<item historyLabel="user_pages_spec.rb" index="14">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="authentication_pages_spec.rb" index="20">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="users_helper.rb" index="13">
+<position info="not_deleted" x="301" y="0"/>
 </item>
-<item historyLabel="authentication_pages_spec.rb" index="20">
-<position info="not_deleted" x="1344" y="0"/>
+<item historyLabel="authentication_pages_spec.rb" index="1">
+<position info="not_deleted" x="578" y="0"/>
 </item>
-<item historyLabel="authentication_pages_spec.rb" index="20">
-<position info="not_deleted" x="1336" y="0"/>
+<item historyLabel="sample_data.rake" index="15">
+<position info="not_deleted" x="570" y="0"/>
 </item>
-<item historyLabel="authentication_pages_spec.rb" index="20">
-<position info="not_deleted" x="1354" y="0"/>
-</item>
-<item historyLabel="sessions_controller.rb" index="21">
-<position info="not_deleted" x="402" y="0"/>
-</item>
-<item active="true" historyLabel="sessions_helper.rb" index="22">
-<position info="not_deleted" x="0" y="0"/>
+<item active="true" historyLabel="authentication_pages_spec.rb" index="1">
+<position info="not_deleted" x="578" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -341,50 +335,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="sessions_helper.rb" tooltip="/home/ak/railsprojects/sample_app/app/helpers/sessions_helper.rb">
-<persistable uri="file:/home/ak/railsprojects/sample_app/app/helpers/sessions_helper.rb"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="sample_data.rake" tooltip="/home/ak/railsprojects/sample_app/lib/tasks/sample_data.rake">
+<persistable uri="file:/home/ak/railsprojects/sample_app/lib/tasks/sample_data.rake"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="sessions_controller.rb" tooltip="/home/ak/railsprojects/sample_app/app/controllers/sessions_controller.rb">
-<persistable uri="file:/home/ak/railsprojects/sample_app/app/controllers/sessions_controller.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="authentication_pages_spec.rb" tooltip="/home/ak/railsprojects/sample_app/spec/requests/authentication_pages_spec.rb">
-<persistable uri="file:/home/ak/railsprojects/sample_app/spec/requests/authentication_pages_spec.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="users_controller.rb" tooltip="/home/ak/railsprojects/sample_app/app/controllers/users_controller.rb">
-<persistable uri="file:/home/ak/railsprojects/sample_app/app/controllers/users_controller.rb"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="users_helper.rb" tooltip="/home/ak/railsprojects/sample_app/app/helpers/users_helper.rb">
+<persistable uri="file:/home/ak/railsprojects/sample_app/app/helpers/users_helper.rb"/>
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="user_pages_spec.rb" tooltip="/home/ak/railsprojects/sample_app/spec/requests/user_pages_spec.rb">
 <persistable uri="file:/home/ak/railsprojects/sample_app/spec/requests/user_pages_spec.rb"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.js" name="application.js" tooltip="/home/ak/railsprojects/sample_app/app/assets/javascripts/application.js">
-<persistable uri="file:/home/ak/railsprojects/sample_app/app/assets/javascripts/application.js"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="index.html.erb" tooltip="/home/ak/railsprojects/sample_app/app/views/users/index.html.erb">
+<persistable uri="file:/home/ak/railsprojects/sample_app/app/views/users/index.html.erb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="users_controller.rb" tooltip="/home/ak/railsprojects/sample_app/app/controllers/users_controller.rb">
+<persistable uri="file:/home/ak/railsprojects/sample_app/app/controllers/users_controller.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="static_pages_spec.rb" tooltip="/home/ak/railsprojects/sample_app/spec/requests/static_pages_spec.rb">
+<persistable uri="file:/home/ak/railsprojects/sample_app/spec/requests/static_pages_spec.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="sessions_controller.rb" tooltip="/home/ak/railsprojects/sample_app/app/controllers/sessions_controller.rb">
+<persistable uri="file:/home/ak/railsprojects/sample_app/app/controllers/sessions_controller.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="sessions_helper.rb" tooltip="/home/ak/railsprojects/sample_app/app/helpers/sessions_helper.rb">
+<persistable uri="file:/home/ak/railsprojects/sample_app/app/helpers/sessions_helper.rb"/>
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="_header.html.erb" tooltip="/home/ak/railsprojects/sample_app/app/views/layouts/_header.html.erb">
 <persistable uri="file:/home/ak/railsprojects/sample_app/app/views/layouts/_header.html.erb"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="user.rb" tooltip="/home/ak/railsprojects/sample_app/app/models/user.rb">
-<persistable uri="file:/home/ak/railsprojects/sample_app/app/models/user.rb"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.sass" name="custom.css.scss" tooltip="/home/ak/railsprojects/sample_app/app/assets/stylesheets/custom.css.scss">
+<persistable uri="file:/home/ak/railsprojects/sample_app/app/assets/stylesheets/custom.css.scss"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="user_spec.rb" tooltip="/home/ak/railsprojects/sample_app/spec/models/user_spec.rb">
-<persistable uri="file:/home/ak/railsprojects/sample_app/spec/models/user_spec.rb"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="authentication_pages_spec.rb" tooltip="/home/ak/railsprojects/sample_app/spec/requests/authentication_pages_spec.rb">
+<persistable uri="file:/home/ak/railsprojects/sample_app/spec/requests/authentication_pages_spec.rb"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="20120329035012_add_remember_token_to_users.rb" tooltip="/home/ak/railsprojects/sample_app/db/migrate/20120329035012_add_remember_token_to_users.rb">
-<persistable uri="file:/home/ak/railsprojects/sample_app/db/migrate/20120329035012_add_remember_token_to_users.rb"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="utilities.rb" tooltip="/home/ak/railsprojects/sample_app/spec/support/utilities.rb">
+<persistable uri="file:/home/ak/railsprojects/sample_app/spec/support/utilities.rb"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="application_controller.rb" tooltip="/home/ak/railsprojects/sample_app/app/controllers/application_controller.rb">
-<persistable uri="file:/home/ak/railsprojects/sample_app/app/controllers/application_controller.rb"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="edit.html.erb" tooltip="/home/ak/railsprojects/sample_app/app/views/users/edit.html.erb">
+<persistable uri="file:/home/ak/railsprojects/sample_app/app/views/users/edit.html.erb"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="new.html.erb" tooltip="/home/ak/railsprojects/sample_app/app/views/sessions/new.html.erb">
-<persistable uri="file:/home/ak/railsprojects/sample_app/app/views/sessions/new.html.erb"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="authentication_steps.rb" tooltip="/home/ak/railsprojects/sample_app/features/step_definitions/authentication_steps.rb">
+<persistable uri="file:/home/ak/railsprojects/sample_app/features/step_definitions/authentication_steps.rb"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="routes.rb" tooltip="/home/ak/railsprojects/sample_app/config/routes.rb">
-<persistable uri="file:/home/ak/railsprojects/sample_app/config/routes.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="config.ru" tooltip="/home/ak/railsprojects/sample_app/config.ru">
-<persistable uri="file:/home/ak/railsprojects/sample_app/config.ru"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="production.rb" tooltip="/home/ak/railsprojects/sample_app/config/environments/production.rb">
-<persistable uri="file:/home/ak/railsprojects/sample_app/config/environments/production.rb"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.text" name="signing_in.feature" tooltip="/home/ak/railsprojects/sample_app/features/signing_in.feature">
+<persistable uri="file:/home/ak/railsprojects/sample_app/features/signing_in.feature"/>
 </file>
 </mruList>
 </workbench>
