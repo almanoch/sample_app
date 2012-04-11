@@ -35,18 +35,13 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="com.aptana.editor.ruby" name="micropost_pages_spec.rb" partName="micropost_pages_spec.rb" title="micropost_pages_spec.rb" tooltip="/home/ak/railsprojects/sample_app/spec/requests/micropost_pages_spec.rb" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/ak/railsprojects/sample_app/spec/requests/micropost_pages_spec.rb"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1084" selectionTopPixel="223"/>
-</editor>
-<editor activePart="true" focus="true" id="com.aptana.editor.ruby" name="static_pages_spec.rb" partName="static_pages_spec.rb" title="static_pages_spec.rb" tooltip="/home/ak/railsprojects/sample_app/spec/requests/static_pages_spec.rb" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/ak/railsprojects/sample_app/spec/requests/static_pages_spec.rb"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="993" selectionTopPixel="522"/>
+<editor activePart="true" focus="true" id="com.aptana.editor.ruby" name="utilities.rb" partName="utilities.rb" title="utilities.rb" tooltip="/home/ak/railsprojects/sample_app/spec/support/utilities.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/ak/railsprojects/sample_app/spec/support/utilities.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -69,7 +64,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="com.aptana.editor.ruby" activePerspective="org.eclipse.ui.resourcePerspective">
+<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="org.eclipse.ui.resourcePerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -153,173 +148,177 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/app/controllers/static_pages_controller.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/spec/requests/micropost_pages_spec.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/ak/railsprojects/sample_app/app/views/shared/_feed.html.erb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/ak/railsprojects/sample_app/app/views/shared/_feed_item.html.erb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/ak/railsprojects/sample_app/app/views/static_pages/home.html.erb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/app/controllers/microposts_controller.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/ak/railsprojects/sample_app/app/views/_micropost.html.erb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" uri="file:/home/ak/railsprojects/sample_app/Guardfile"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" uri="file:/home/ak/railsprojects/sample_app/Gemfile~"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" uri="file:/home/ak/railsprojects/sample_app/Guardfile~"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" uri="file:/home/ak/railsprojects/sample_app/Gemfile.lock"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/Gemfile"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/spec/requests/static_pages_spec.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/config/routes.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.sass" uri="file:/home/ak/railsprojects/sample_app/app/assets/stylesheets/custom.css.scss"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/ak/railsprojects/sample_app/app/views/users/_follow_form.html.erb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/ak/railsprojects/sample_app/app/views/users/_follow.html.erb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/ak/railsprojects/sample_app/app/views/users/_unfollow.html.erb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/ak/railsprojects/sample_app/app/views/users/show.html.erb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/spec/requests/authentication_pages_spec.rb"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/spec/requests/user_pages_spec.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/app/controllers/users_controller.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/ak/railsprojects/sample_app/app/views/users/show_follow.html.erb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/app/controllers/relationships_controller.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/ak/railsprojects/sample_app/app/views/_micropost.html.erb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/ak/railsprojects/sample_app/app/views/microposts/_micropost.html.erb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/spec/controllers/relationships_controller_spec.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/ak/railsprojects/sample_app/app/views/relationships/create.js.erb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/ak/railsprojects/sample_app/app/views/relationships/destroy.js.erb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/spec/models/micropost_spec.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/spec/models/user_spec.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/app/models/user.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/app/models/micropost.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/app/controllers/static_pages_controller.rb"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/spec/support/utilities.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/spec/requests/micropost_pages_spec.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/spec/support/utilities.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/ak/railsprojects/sample_app/spec/requests/static_pages_spec.rb"/>
 </editors>
-<item historyLabel="static_pages_controller.rb" index="0">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="custom.css.scss" index="1">
+<position info="not_deleted" x="3214" y="0"/>
 </item>
-<item historyLabel="static_pages_controller.rb" index="0">
-<position info="not_deleted" x="139" y="0"/>
-</item>
-<item historyLabel="micropost_pages_spec.rb" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="_feed.html.erb" index="2">
-<position info="not_deleted" x="176" y="0"/>
-</item>
-<item historyLabel="micropost_pages_spec.rb" index="1">
-<position info="not_deleted" x="53" y="0"/>
-</item>
-<item historyLabel="_feed_item.html.erb" index="3">
+<item historyLabel="_follow_form.html.erb" index="2">
 <position/>
 </item>
-<item historyLabel="micropost_pages_spec.rb" index="1">
-<position info="not_deleted" x="53" y="0"/>
-</item>
-<item historyLabel="home.html.erb" index="4">
-<position info="not_deleted" x="30" y="0"/>
-</item>
-<item historyLabel="home.html.erb" index="4">
-<position info="not_deleted" x="27" y="0"/>
-</item>
-<item historyLabel="home.html.erb" index="4">
-<position info="not_deleted" x="367" y="0"/>
-</item>
-<item historyLabel="home.html.erb" index="4">
-<position info="not_deleted" x="367" y="0"/>
-</item>
-<item historyLabel="home.html.erb" index="4">
-<position info="not_deleted" x="345" y="0"/>
-</item>
-<item historyLabel="home.html.erb" index="4">
-<position info="not_deleted" x="358" y="0"/>
-</item>
-<item historyLabel="home.html.erb" index="4">
-<position info="not_deleted" x="367" y="0"/>
-</item>
-<item historyLabel="micropost_pages_spec.rb" index="1">
-<position info="not_deleted" x="53" y="0"/>
-</item>
-<item historyLabel="microposts_controller.rb" index="5">
+<item historyLabel="routes.rb" index="0">
 <position/>
 </item>
-<item historyLabel="micropost_pages_spec.rb" index="1">
-<position info="not_deleted" x="53" y="0"/>
+<item historyLabel="_follow_form.html.erb" index="2">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="_micropost.html.erb" index="6">
+<item historyLabel="routes.rb" index="0">
+<position/>
+</item>
+<item historyLabel="_follow.html.erb" index="3">
+<position/>
+</item>
+<item historyLabel="routes.rb" index="0">
+<position/>
+</item>
+<item historyLabel="_unfollow.html.erb" index="4">
+<position/>
+</item>
+<item historyLabel="routes.rb" index="0">
+<position/>
+</item>
+<item historyLabel="show.html.erb" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="show.html.erb" index="5">
+<position info="not_deleted" x="327" y="0"/>
+</item>
+<item historyLabel="routes.rb" index="0">
+<position/>
+</item>
+<item historyLabel="authentication_pages_spec.rb" index="6">
+<position/>
+</item>
+<item historyLabel="authentication_pages_spec.rb" index="6">
+<position/>
+</item>
+<item historyLabel="routes.rb" index="0">
+<position/>
+</item>
+<item historyLabel="user_pages_spec.rb" index="7">
+<position/>
+</item>
+<item historyLabel="users_controller.rb" index="8">
+<position info="not_deleted" x="1355" y="0"/>
+</item>
+<item historyLabel="show_follow.html.erb" index="9">
+<position info="not_deleted" x="794" y="0"/>
+</item>
+<item historyLabel="user_pages_spec.rb" index="7">
+<position info="not_deleted" x="2118" y="0"/>
+</item>
+<item historyLabel="authentication_pages_spec.rb" index="6">
+<position info="not_deleted" x="1601" y="0"/>
+</item>
+<item historyLabel="relationships_controller.rb" index="10">
+<position/>
+</item>
+<item historyLabel="routes.rb" index="0">
+<position info="not_deleted" x="43" y="0"/>
+</item>
+<item historyLabel="_micropost.html.erb" index="11">
+<position/>
+</item>
+<item historyLabel="routes.rb" index="0">
+<position info="not_deleted" x="43" y="0"/>
+</item>
+<item historyLabel="_micropost.html.erb" index="11">
+<position info="not_deleted" x="0" y="401"/>
+</item>
+<item historyLabel="_micropost.html.erb" index="12">
 <position info="not_deleted" x="401" y="0"/>
 </item>
-<item historyLabel="micropost_pages_spec.rb" index="1">
-<position info="not_deleted" x="53" y="0"/>
+<item historyLabel="_follow.html.erb" index="3">
+<position/>
 </item>
-<item historyLabel="_feed_item.html.erb" index="3">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="_unfollow.html.erb" index="4">
+<position/>
 </item>
-<item historyLabel="_feed_item.html.erb" index="3">
-<position info="not_deleted" x="374" y="0"/>
-</item>
-<item historyLabel="_feed_item.html.erb" index="3">
-<position info="not_deleted" x="560" y="0"/>
-</item>
-<item historyLabel="micropost_pages_spec.rb" index="1">
+<item historyLabel="relationships_controller_spec.rb" index="13">
 <position info="not_deleted" x="1084" y="0"/>
 </item>
-<item historyLabel="microposts_controller.rb" index="5">
+<item historyLabel="relationships_controller.rb" index="10">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="microposts_controller.rb" index="5">
-<position info="not_deleted" x="587" y="0"/>
+<item historyLabel="relationships_controller.rb" index="10">
+<position info="not_deleted" x="482" y="0"/>
 </item>
-<item historyLabel="microposts_controller.rb" index="5">
-<position info="not_deleted" x="643" y="0"/>
+<item historyLabel="create.js.erb" index="14">
+<position info="not_deleted" x="129" y="0"/>
 </item>
-<item historyLabel="micropost_pages_spec.rb" index="1">
-<position info="not_deleted" x="1084" y="0"/>
+<item historyLabel="destroy.js.erb" index="15">
+<position info="not_deleted" x="127" y="0"/>
 </item>
-<item historyLabel="Guardfile" index="7">
+<item historyLabel="_unfollow.html.erb" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Gemfile~" index="8">
+<item historyLabel="_follow.html.erb" index="3">
+<position info="not_deleted" x="92" y="0"/>
+</item>
+<item historyLabel="micropost_spec.rb" index="16">
+<position info="not_deleted" x="527" y="0"/>
+</item>
+<item historyLabel="user_spec.rb" index="17">
+<position/>
+</item>
+<item historyLabel="user_spec.rb" index="17">
+<position/>
+</item>
+<item historyLabel="user_spec.rb" index="17">
+<position/>
+</item>
+<item historyLabel="user_spec.rb" index="17">
+<position/>
+</item>
+<item historyLabel="user_spec.rb" index="17">
+<position/>
+</item>
+<item historyLabel="user_spec.rb" index="17">
+<position/>
+</item>
+<item historyLabel="user_spec.rb" index="17">
+<position/>
+</item>
+<item historyLabel="user.rb" index="18">
+<position info="not_deleted" x="1268" y="0"/>
+</item>
+<item historyLabel="micropost.rb" index="19">
+<position/>
+</item>
+<item historyLabel="user_spec.rb" index="17">
+<position info="not_deleted" x="2979" y="0"/>
+</item>
+<item historyLabel="micropost.rb" index="19">
+<position/>
+</item>
+<item historyLabel="micropost.rb" index="19">
+<position info="not_deleted" x="746" y="0"/>
+</item>
+<item historyLabel="static_pages_controller.rb" index="20">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Guardfile~" index="9">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Gemfile~" index="8">
-<position info="not_deleted" x="767" y="0"/>
-</item>
-<item historyLabel="Guardfile~" index="9">
-<position info="not_deleted" x="881" y="0"/>
-</item>
-<item historyLabel="Gemfile~" index="8">
-<position info="not_deleted" x="767" y="0"/>
-</item>
-<item historyLabel="Guardfile" index="7">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="micropost_pages_spec.rb" index="1">
-<position info="not_deleted" x="1084" y="0"/>
-</item>
-<item historyLabel="Gemfile.lock" index="10">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="micropost_pages_spec.rb" index="1">
-<position info="not_deleted" x="1084" y="0"/>
-</item>
-<item historyLabel="Gemfile" index="11">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="micropost_pages_spec.rb" index="1">
-<position info="not_deleted" x="1084" y="0"/>
-</item>
-<item historyLabel="static_pages_spec.rb" index="12">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="user_pages_spec.rb" index="13">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="static_pages_spec.rb" index="12">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="utilities.rb" index="14">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="static_pages_spec.rb" index="12">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="utilities.rb" index="14">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="static_pages_spec.rb" index="12">
-<position info="not_deleted" x="1001" y="1"/>
-</item>
-<item historyLabel="micropost_pages_spec.rb" index="15">
-<position info="not_deleted" x="1084" y="0"/>
-</item>
-<item historyLabel="utilities.rb" index="16">
-<position info="not_deleted" x="167" y="0"/>
-</item>
-<item historyLabel="micropost_pages_spec.rb" index="15">
-<position info="not_deleted" x="1084" y="0"/>
-</item>
-<item active="true" historyLabel="static_pages_spec.rb" index="17">
+<item active="true" historyLabel="utilities.rb" index="21">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
@@ -344,50 +343,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="static_pages_spec.rb" tooltip="/home/ak/railsprojects/sample_app/spec/requests/static_pages_spec.rb">
-<persistable uri="file:/home/ak/railsprojects/sample_app/spec/requests/static_pages_spec.rb"/>
-</file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="utilities.rb" tooltip="/home/ak/railsprojects/sample_app/spec/support/utilities.rb">
 <persistable uri="file:/home/ak/railsprojects/sample_app/spec/support/utilities.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="user_pages_spec.rb" tooltip="/home/ak/railsprojects/sample_app/spec/requests/user_pages_spec.rb">
-<persistable uri="file:/home/ak/railsprojects/sample_app/spec/requests/user_pages_spec.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="Gemfile" tooltip="/home/ak/railsprojects/sample_app/Gemfile">
-<persistable uri="file:/home/ak/railsprojects/sample_app/Gemfile"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="Gemfile.lock" tooltip="/home/ak/railsprojects/sample_app/Gemfile.lock">
-<persistable uri="file:/home/ak/railsprojects/sample_app/Gemfile.lock"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="Guardfile~" tooltip="/home/ak/railsprojects/sample_app/Guardfile~">
-<persistable uri="file:/home/ak/railsprojects/sample_app/Guardfile~"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="Gemfile~" tooltip="/home/ak/railsprojects/sample_app/Gemfile~">
-<persistable uri="file:/home/ak/railsprojects/sample_app/Gemfile~"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="Guardfile" tooltip="/home/ak/railsprojects/sample_app/Guardfile">
-<persistable uri="file:/home/ak/railsprojects/sample_app/Guardfile"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="microposts_controller.rb" tooltip="/home/ak/railsprojects/sample_app/app/controllers/microposts_controller.rb">
-<persistable uri="file:/home/ak/railsprojects/sample_app/app/controllers/microposts_controller.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="_feed_item.html.erb" tooltip="/home/ak/railsprojects/sample_app/app/views/shared/_feed_item.html.erb">
-<persistable uri="file:/home/ak/railsprojects/sample_app/app/views/shared/_feed_item.html.erb"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="_micropost.html.erb" tooltip="/home/ak/railsprojects/sample_app/app/views/_micropost.html.erb">
-<persistable uri="file:/home/ak/railsprojects/sample_app/app/views/_micropost.html.erb"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="home.html.erb" tooltip="/home/ak/railsprojects/sample_app/app/views/static_pages/home.html.erb">
-<persistable uri="file:/home/ak/railsprojects/sample_app/app/views/static_pages/home.html.erb"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="_feed.html.erb" tooltip="/home/ak/railsprojects/sample_app/app/views/shared/_feed.html.erb">
-<persistable uri="file:/home/ak/railsprojects/sample_app/app/views/shared/_feed.html.erb"/>
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="static_pages_controller.rb" tooltip="/home/ak/railsprojects/sample_app/app/controllers/static_pages_controller.rb">
 <persistable uri="file:/home/ak/railsprojects/sample_app/app/controllers/static_pages_controller.rb"/>
 </file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="micropost.rb" tooltip="/home/ak/railsprojects/sample_app/app/models/micropost.rb">
+<persistable uri="file:/home/ak/railsprojects/sample_app/app/models/micropost.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="user_spec.rb" tooltip="/home/ak/railsprojects/sample_app/spec/models/user_spec.rb">
+<persistable uri="file:/home/ak/railsprojects/sample_app/spec/models/user_spec.rb"/>
+</file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="user.rb" tooltip="/home/ak/railsprojects/sample_app/app/models/user.rb">
 <persistable uri="file:/home/ak/railsprojects/sample_app/app/models/user.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="micropost_spec.rb" tooltip="/home/ak/railsprojects/sample_app/spec/models/micropost_spec.rb">
+<persistable uri="file:/home/ak/railsprojects/sample_app/spec/models/micropost_spec.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="_follow.html.erb" tooltip="/home/ak/railsprojects/sample_app/app/views/users/_follow.html.erb">
+<persistable uri="file:/home/ak/railsprojects/sample_app/app/views/users/_follow.html.erb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="_unfollow.html.erb" tooltip="/home/ak/railsprojects/sample_app/app/views/users/_unfollow.html.erb">
+<persistable uri="file:/home/ak/railsprojects/sample_app/app/views/users/_unfollow.html.erb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="destroy.js.erb" tooltip="/home/ak/railsprojects/sample_app/app/views/relationships/destroy.js.erb">
+<persistable uri="file:/home/ak/railsprojects/sample_app/app/views/relationships/destroy.js.erb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="create.js.erb" tooltip="/home/ak/railsprojects/sample_app/app/views/relationships/create.js.erb">
+<persistable uri="file:/home/ak/railsprojects/sample_app/app/views/relationships/create.js.erb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="relationships_controller.rb" tooltip="/home/ak/railsprojects/sample_app/app/controllers/relationships_controller.rb">
+<persistable uri="file:/home/ak/railsprojects/sample_app/app/controllers/relationships_controller.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="relationships_controller_spec.rb" tooltip="/home/ak/railsprojects/sample_app/spec/controllers/relationships_controller_spec.rb">
+<persistable uri="file:/home/ak/railsprojects/sample_app/spec/controllers/relationships_controller_spec.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="_micropost.html.erb" tooltip="/home/ak/railsprojects/sample_app/app/views/microposts/_micropost.html.erb">
+<persistable uri="file:/home/ak/railsprojects/sample_app/app/views/microposts/_micropost.html.erb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="_micropost.html.erb" tooltip="/home/ak/railsprojects/sample_app/app/views/_micropost.html.erb">
+<persistable uri="file:/home/ak/railsprojects/sample_app/app/views/_micropost.html.erb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="routes.rb" tooltip="/home/ak/railsprojects/sample_app/config/routes.rb">
+<persistable uri="file:/home/ak/railsprojects/sample_app/config/routes.rb"/>
 </file>
 </mruList>
 </workbench>
